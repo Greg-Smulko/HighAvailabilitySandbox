@@ -9,6 +9,16 @@
     }
   },
   "profiles": {
+    "Production": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:443;http://localhost:80",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      }
+    },
     "HighAvailabilitySandbox": {
       "commandName": "Project",
       "dotnetRunMessages": true,
